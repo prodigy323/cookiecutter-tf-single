@@ -1,0 +1,8 @@
+{
+    "project_name": "tf-single-tf",
+    "project_description": "Description-single-tf",
+    "project_profile": "vapollosb",
+    "terraform_version": "1.5.5",
+    "aws_provider_version": "5.0.0",
+    "aws_region": "us-east-1"
+}
