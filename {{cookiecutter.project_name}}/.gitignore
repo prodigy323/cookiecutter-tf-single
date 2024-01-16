@@ -1,5 +1,11 @@
-.terraform*
+.terraform/
+.terraform.lock.hcl
 terraform.tfstate
 terraform.tfstate.backup
 terraform.tfvars
 terraform/builds/
+tf-networking.md
+#.pre-commit-config.yaml
+#terraform-docs.yml
+#header.md
+#footer.md
