@@ -1,4 +1,4 @@
-# tf-networking
-Networking components for SancusIT AWS environment
+# {{ cookiecutter.project_name }}
+{{ cookiecutter.project_description }}
 
 
