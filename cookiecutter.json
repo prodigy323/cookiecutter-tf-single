@@ -1,7 +1,7 @@
 {
     "project_name": "tf-single",
     "project_description": "Description",
-    "project_profile": "vsancusmgmt",
+    "project_profile": "valphasb",
     "terraform_version": "1.5.5",
     "aws_provider_version": "5.0.0",
     "aws_region": "us-east-1",

@@ -23,6 +23,7 @@ provider "aws" {
   default_tags {
     tags = {
       Project = local.project_name
+      Source  = local.project_source
     }
   }
 }
@@ -33,7 +34,8 @@ provider "aws" {
 locals {
   region = "{{ cookiecutter.aws_region }}"
   profile = "{{ cookiecutter.project_profile }}"
-  project_name = "{{ cookiecutter.project_name }}"
+  project_name = basename(path.cwd)
+  project_source = "local:dev/"
 }
 
 ###############################

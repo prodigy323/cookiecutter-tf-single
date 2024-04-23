@@ -17,14 +17,6 @@ content: |-
 
   {{ .Inputs }}
 
-  ## Examples
-
-  The below code shows and example:
-
-  ```hcl
-  {{ include "vpcs.tf" }}
-  ```
-
   {{ .Outputs }}
 
   {{ .Footer }}
